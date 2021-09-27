@@ -32,7 +32,7 @@ std::string citeste_cheia()
 		std::cout << "=========================================================== \n";
 		std::cout << "Nu ai introdus un cifru format din litere mici! \n";
 		std::cout << "Te rog sa introduci un sir format doar din litere mici si fara spatii! \n";
-		std::cout << "Asteapta pana cand se actualizeaza ecranul! \n";
+		std::cout << "Asteapta pana cand se actualizeaza ecranul! ";
 		Sleep(4000);
 		system("CLS");
 		return citeste_cheia();
